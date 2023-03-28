@@ -1,0 +1,28 @@
+{
+  "name": "lab4-apis-lbv",
+  "version": "1.0.0",
+  "description": "\"LAB4: Calling APIs Create Node project that uses TS to create components capable of rendering based on API calls.  1. General review of all pairs. 2. Work in class 3. Random pair selected, and random student present last assigment\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=production",
+    "serve": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laura-barrera-valdes/LAB4-APIs-LBV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laura-barrera-valdes/LAB4-APIs-LBV/issues"
+  },
+  "homepage": "https://github.com/laura-barrera-valdes/LAB4-APIs-LBV#readme",
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  }
+}
