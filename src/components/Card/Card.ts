@@ -4,13 +4,13 @@ import styles from "./Card.css";
 export enum Attribut {
   "name" = "name",
   "gender" = "gender",
-  "species" = "species",
+  "birth_year" = "birth_year",
 }
 
 class AppCard extends HTMLElement {
   name?: string;
   gender?: string;
-  species?: string;
+  birth_year?: string;
 
   constructor() {
     super();
@@ -21,7 +21,7 @@ class AppCard extends HTMLElement {
     const info: Record<Attribut, null> = {
       name: null,
       gender: null,
-      species: null,
+      birth_year: null,
     };
     return Object.keys(info);
   }
@@ -56,8 +56,8 @@ class AppCard extends HTMLElement {
         <p>Gender:</p>
         <h2>${this.gender}</h2>
         <br>
-        <p>Species:</p>
-        <h2>${this.species}</h2>
+        <p>Birth Year:</p>
+        <h2>${this.birth_year}</h2>
       </section>
       `;
       const css = this.ownerDocument.createElement("style");

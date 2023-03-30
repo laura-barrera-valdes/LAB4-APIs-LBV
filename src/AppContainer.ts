@@ -15,7 +15,7 @@ class AppContainer extends HTMLElement {
       const character = this.ownerDocument.createElement("app-card") as AppCard;
       character.setAttribute(Attribut.name, element.name);
       character.setAttribute(Attribut.gender, element.gender);
-      character.setAttribute(Attribut.species, element.name);
+      character.setAttribute(Attribut.birth_year, element.birth_year);
       this.cardArray.push(character);
     });
     this.render(this.cardArray);
