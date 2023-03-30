@@ -1,0 +1,1 @@
+declare module "*.css" //this is for Types to understand what .css is
